@@ -1,0 +1,30 @@
+# Site settings
+title: Morrell Lab
+affiliation: University of Minnesota
+email: rakakpo@umn.edu
+description: "Evolutionary Genetics and Plant Evolution"
+baseurl: ""
+url: "Rakakpo.github.io"
+github_url: "https://github.com/rakakp007/Rakakpo.github.io/"
+#images_dir: "/raw/master/images/"
+twitter_username: ayelola13
+github_username:  rakakp007
+future: true
+plugins_dir:
+  - jemoji
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Custom Collections
+collections:
+  meetings:
+    output: true
+  compute:
+    output: true
+  people:
+    output: true
+  publications:
+    output: true
+  classics:
+    output: true
